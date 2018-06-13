@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {outline: none!important;}
+
+html, body {
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  height: 100%;
+
+  color: $text;
+  background-color: $background;
+}
+
+a {
+  outline: none!important;
+}
