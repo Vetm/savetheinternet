@@ -5,12 +5,23 @@
 }
 
 .icon-pair {
+  margin-bottom: 25px;
   align-items: center;
 
-  .title {
-    margin: 0 0 5px 0;
+  .icon {
+    justify-content: center;
+    img {
+      width: 120px;
+      height: 120px;
+    }
   }
+
   .text {
-    margin: 0;
+    .title {
+      margin: 0 0 5px 0;
+    }
+    .content {
+      margin: 0;
+    }
   }
 }
