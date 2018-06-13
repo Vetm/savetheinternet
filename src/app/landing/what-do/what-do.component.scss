@@ -1,0 +1,16 @@
+@import "../../../variables";
+
+.what-do {
+  margin-top: $vertical-space;
+}
+
+.icon-pair {
+  align-items: center;
+
+  .title {
+    margin: 0 0 5px 0;
+  }
+  .text {
+    margin: 0;
+  }
+}
