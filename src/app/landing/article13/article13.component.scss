@@ -1,0 +1,59 @@
+@import "../../../variables";
+
+.article-thirteen {
+  margin-top: $vertical-space;
+}
+.header {
+  .title {
+    margin: 0;
+    font-size: 3.4em;
+    font-weight: 500;
+    .highlight {
+      color: $accent2;
+    }
+  }
+  .tagline {
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+.content-pair {
+  margin-top: 30px;
+  align-items: center;
+  .box-wrapper {
+    justify-content: center;
+    .box {
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      padding: 25px 65px;
+      img {
+        max-width: 150px;
+        max-height: 150px;
+        height: auto;
+      }
+    }
+  }
+  .text {
+    .title {
+      margin: 0 0 5px 0;
+      .highlight {
+        color: $accent1;
+      }
+    }
+    .content {
+      margin: 0;
+    }
+  }
+}
+
+.box-reddit {
+  background-color: #57fbbc;
+}
+.box-link {
+  background-color: #62d1fd;
+}
+.box-pepe {
+  background-color: #ff817c;
+}
