@@ -38,6 +38,10 @@
     }
   }
   .text {
+    @include media-breakpoint-down(md) {
+      margin-top: 15px;
+      margin-bottom: 50px;
+    }
     .title {
       margin: 0 0 5px 0;
       .highlight {
